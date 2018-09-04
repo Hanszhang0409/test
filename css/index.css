@@ -1,0 +1,251 @@
+a{color:#fff; text-decoration:none; cursor:pointer; outline: 0 none;}
+a:hover{text-decoration:underline;}
+a:focus {border:0px;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,blockquote,th,td{margin:0; padding:0;}
+header,footer,article,aside,section,nav,menu,hgroup,details,dialog,figure,figcaption{display:block}
+ol,li,ul,dl,dt,dd{list-style:none;}
+fieldset,img {border:0}
+button,submit,input,select { vertical-align:middle;}
+button,submit { cursor:pointer;}
+// h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:lighter;}
+table{border-collapse:collapse; border-spacing:0;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+select,button{font-family:inherit; font-size:inherit; font-weight:inherit; outline-style:none;  outline-width:0pt; padding: 0; margin: 0;}
+b,em,i{display:inline-block; font-weight:normal;font-style:normal;}
+.clearfix:after { content: ".";display: block;height: 0;clear: both;visibility:hidden;} 
+.clearfix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;} 
+/*头部*/
+.top{
+    height:80px;
+    background: #1b1b1b;
+}
+.t_cnt,.b_cnt,.team,.introduce
+,.photography,.about,.wrapper{
+    width: 1180px;
+    margin:auto;
+}
+.logo{
+    margin-top: 22px;
+}
+.nav {
+    line-height:80px;
+}
+.nav ul li{
+    float:left;
+    font-size:16px;
+    color:#fff;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.nav ul li:hover{
+    color:#ff7e38;
+}
+/* banner */
+.banner{
+    height:600px;
+    background:url('../img/banner.jpg')no-repeat;
+    overflow: hidden;
+}
+.word {
+    color:#fff;
+    margin-top:150px;
+}
+.word p{
+    font-size:24px;
+}
+.intro{
+    width:206px;
+    height:55px;
+    background:#ff7e38;
+    line-height:55px;
+    text-align: center;
+    font-size:24px;
+    font-weight:700;
+    cursor: pointer;
+}
+/* 系统班 */
+.team{
+    margin-top:90px;
+}
+.font p{
+    font-size:20px;
+    color:#333333;
+    text-align:center;
+}
+.list{
+     display: -webkit-flex;/*新版本语法：chrome 21+*/
+     display: flex;/*新版本语法:opera 12.1,Firefox 22+*/
+     display: -webkit-box;/*老版本语法：Safari,iOS,Android browser,old Webkit browser*/
+     display: -moz-box;/*老版本语法：Firefox(buggy)*/
+     display: -ms-flexbox;/*混合版本语法：IE 10*/
+}
+.list li{
+    width:238px;
+    height:40px;
+    line-height:40px;
+     -webkit-justify-content:space-between;
+    justify-content:space-between;
+    -moz-box-pack:space-between;
+    -webkit--moz-box-pack:space-between;
+    box-pack:space-between;
+    cursor: pointer;
+    text-align:center;
+    font-size:24px;
+}
+.tab_cnt img{
+    cursor: pointer;
+}
+.title{
+    font-size:24px;
+    border-left: 2px solid #ff7e38;
+    padding-left: 5px;
+    margin-left:10px;
+}
+.left{
+    margin-left:19px;
+}
+.des{
+    margin-left: 25px;
+}
+.des p{
+    line-height:14px;
+    color:#333333;
+}
+.get{
+    width:560px;
+    height:55px;
+    background:#ff7e38;
+    line-height:55px;
+    text-align:center;
+    font-size:24px;
+    font-weight:700;
+    color:#fff;
+    margin-top:40px;
+    cursor: pointer;
+}
+.active{
+    background:#333333;
+    color:#fff;
+}
+/*介绍 */
+.introduce{
+    margin-top:97px;
+}
+.introduce img{
+    cursor: pointer;
+}
+.introduce img:hover{
+    box-shadow: 0 0 8px 2px #555;
+}
+.img{
+    margin-top:45px;
+}
+.bottom{
+    margin-top:14px;
+    margin-left:5px;
+}
+/* 摄影 */
+.photography{
+    margin-top:98px;
+}
+.tab1{
+    margin-top:37px;
+}
+.tab_cnt1{
+    margin-top:10px;
+}
+.tab_cnt1 img{
+    cursor: pointer;
+}
+.tab_cnt1 img:hover{
+    box-shadow: 0 0 8px 2px #555;
+}
+.list1 li{
+    font-size:28px;
+    font-weight:700;
+    color:#4b4747;
+}
+.active1{
+    background:#fff;
+    color:#000;
+    border-bottom: 2px solid #ffcd13;
+}
+.tab_cnt1 img{
+    margin-left: 11px;
+    margin-top: 15px;
+}
+/* 关于我们 */
+.a_title{
+    width:102px;
+    height:102px;
+    background:url('../img/about.jpg')no-repeat;
+    margin:auto;
+    text-align:center;
+    overflow:hidden;
+    margin-top:123px;
+    margin-bottom: 30px;
+}
+.fonts{
+    margin-top:-4px;
+}
+.fonts p{
+    font-size:30px;
+    line-height:10px;
+}
+.details p{
+    text-align:center;
+    line-height:10px;
+}
+.show{
+    margin-top:31px;
+    padding-left: 7px;
+}
+.show img{
+    cursor: pointer;
+}
+/* footer */
+.footer{
+    height:450px;
+    background:#313131;
+    margin-top:100px;
+
+}
+.wrapper{
+    padding-top: 170px;
+
+}
+.contact{
+    margin-left:44px;
+    margin-top: 30px;
+}
+.contact p{
+    font-size:22px;
+    color:#fff;
+}
+.endlist{
+    width:210px;
+    margin-top:90px;
+}
+.endlist li{
+    color:#fff;
+    height:50px;
+    float:left;
+    margin-left:40px;
+    cursor: pointer;
+}
+
+/* 备案 */
+.code{
+    height:52px;
+    line-height:52px;
+    background:#1b1b1b;
+    color:#fff;
+    margin-top: -16px;
+}
+.code_cnt{
+    width:1180px;
+    margin:auto;
+}
